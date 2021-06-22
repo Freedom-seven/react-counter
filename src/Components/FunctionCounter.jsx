@@ -15,6 +15,7 @@ const FunctionCounter = () => {
     }
     return (
         <div className = "funcounter" style={{textAlign: 'center'}}>
+            <h4>Function Counter</h4>
            <h1 className = "funcount">Count: {count}</h1>
 
            <button onClick={handleDecrease}>Decrease</button>
