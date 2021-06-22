@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './FunctionCounter.css';
 
 const FunctionCounter = () => {
     const [count, updateCount] = useState(0);
@@ -13,9 +14,9 @@ const FunctionCounter = () => {
         updateCount(count - 1)
     }
     return (
-        <div style={{textAlign: 'center'}}>
-           <h1>Count: {count}</h1>
-           <hr/>
+        <div className = "funcounter" style={{textAlign: 'center'}}>
+           <h1 className = "funcount">Count: {count}</h1>
+
            <button onClick={handleDecrease}>Decrease</button>
            &nbsp;
            <button onClick={handleIncrease}>Increase</button>
