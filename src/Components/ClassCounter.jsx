@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './ClassCounter.css';
 
 class ClassCounter extends Component {
     constructor(props) {
@@ -18,8 +19,8 @@ class ClassCounter extends Component {
     render() {
         return (
             <div style = {{textAlign:'center'}}>
-               <h1>Count: {this.state.count}</h1>
-               <hr/>
+               <h1  className = "count">Count: {this.state.count}</h1>
+
                <button onClick={this.handleDecrease}>Decrease</button>
                 &nbsp;
                <button onClick={this.handleIncrease}>Increase</button>
