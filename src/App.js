@@ -6,6 +6,8 @@ function App() {
   return (
     <>
       <ClassCounter/>
+      <br/><br/><br/>
+      <hr/>
       <FunctionCounter/>
     </>
   );
