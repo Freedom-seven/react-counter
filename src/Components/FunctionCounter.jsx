@@ -3,15 +3,22 @@ import React, { useState } from 'react';
 const FunctionCounter = () => {
     const [count, updateCount] = useState(0);
 
-    handleIncrease () {
-        
+     const handleIncrease = (e) => {
+        e.preventDefault();
+        updateCount(count + 1)
+    }
+
+    const handleDecrease = (e) => {
+        e.preventDefault();
+        updateCount(count - 1)
     }
     return (
         <div>
            <h1>Count: {count}</h1>
            <hr/>
-           <button>Decrease</button>
-           <button>Increase</button>
+           <button onClick={handleDecrease}>Decrease</button>
+           &nbsp;
+           <button onClick={handleIncrease}>Increase</button>
         </div>
     );
 }
