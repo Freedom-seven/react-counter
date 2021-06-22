@@ -1,0 +1,12 @@
+.funcount {
+    color: rgb(205, 133, 63);
+}
+
+.funcounter {
+    background-color: black;
+    height: 10rem;
+    width: 40rem;
+    margin: auto;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: rgba(205, 133, 63, 0.4) -5px 5px, rgba(205, 133, 63, 0.3) -10px 10px, rgba(205, 133, 63, 0.2) -15px 15px, rgba(205, 133, 63, 0.1) -20px 20px, rgba(205, 133, 63, 0.05) -25px 25px;
+}
