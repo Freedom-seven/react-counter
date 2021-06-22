@@ -13,7 +13,7 @@ const FunctionCounter = () => {
         updateCount(count - 1)
     }
     return (
-        <div>
+        <div style={{textAlign: 'center'}}>
            <h1>Count: {count}</h1>
            <hr/>
            <button onClick={handleDecrease}>Decrease</button>
