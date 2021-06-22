@@ -18,12 +18,13 @@ class ClassCounter extends Component {
     }
     render() {
         return (
-            <div style = {{textAlign:'center'}}>
+            <div className = "classConuter" style = {{textAlign:'center'}}>
+                <h4>Class Counter</h4>
                <h1  className = "count">Count: {this.state.count}</h1>
 
-               <button onClick={this.handleDecrease}>Decrease</button>
+               <button className = "btn" onClick={this.handleDecrease}>Decrease</button>
                 &nbsp;
-               <button onClick={this.handleIncrease}>Increase</button>
+               <button className = "btn" onClick={this.handleIncrease}>Increase</button>
             </div>
         );
     }
