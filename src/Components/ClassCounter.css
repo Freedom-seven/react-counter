@@ -1,3 +1,30 @@
 .count {
-    color: aqua;
+    color: rgb(0, 255, 255);
+}
+
+.classConuter {
+    background-color: black;
+    height: 10rem;
+    width: 40rem;
+    margin: auto;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: rgba(0, 255, 255, 0.4) -5px 5px, rgba(0, 255, 255, 0.3) -10px 10px, rgba(0, 255, 255, 0.2) -15px 15px, rgba(0, 255, 255, 0.1) -20px 20px, rgba(0, 255, 255, 0.05) -25px 25px;
+}
+
+h4 {
+    color: white;
+}
+
+.btn {
+    background-color: aqua;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px 0 10px 0;
+    width: 100px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: solid 1px white;
 }
